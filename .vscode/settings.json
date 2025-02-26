@@ -1,0 +1,17 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPathWin": "C:\\Users\\Deepak\\esp\\v5.4\\esp-idf",
+    "idf.pythonInstallPath": "c:\\Users\\Deepak\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.portWin": "COM11",
+    "idf.toolsPathWin": "c:\\Users\\Deepak\\.espressif",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "c:\\Users\\Deepak\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "c:\\Users\\Deepak\\.espressif\\tools\\esp-rom-elfs\\20230320/",
+        "IDF_TARGET": "esp32"
+    },
+    "idf.flashType": "UART"
+}
