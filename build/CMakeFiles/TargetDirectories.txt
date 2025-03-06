@@ -555,6 +555,7 @@ D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/esp_wifi/CMakeFiles/list_ins
 D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/esp_wifi/CMakeFiles/install.dir
 D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/esp_wifi/CMakeFiles/install/local.dir
 D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/esp_wifi/CMakeFiles/install/strip.dir
+D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/bt/CMakeFiles/__idf_bt.dir
 D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/bt/CMakeFiles/edit_cache.dir
 D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/bt/CMakeFiles/rebuild_cache.dir
 D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/bt/CMakeFiles/list_install_components.dir

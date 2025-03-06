@@ -19,8 +19,11 @@
 #include "lwip/sys.h"
 #include "lwip/netdb.h"
 #include "lwip/dns.h"
-#include "sdkconfig.h"
+
 #include "encoder.h"
+#include "gatttest.h"
+
+#include "sdkconfig.h"
 
 /* Flask Server IP Address & Port */
 #define DB_WEB_SERVER "192.168.13.140"  // Replace with your Flask server's IP
@@ -192,4 +195,5 @@ void app_main(void)
     if (MONITOR_ENCODER){
         xTaskCreate(encoder_print_task, "encoder_print_task", 2048, NULL, 5, NULL);
     }
+    xTaskCreate(gatttest, "gatttest", 4096, NULL, 5, NULL);
 }
