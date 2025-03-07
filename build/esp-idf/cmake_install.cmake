@@ -549,6 +549,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/espressif__esp_lcd_sh1107/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/lvgl__lvgl/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/espressif__esp_lvgl_port/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("D:/Projects/time_keeper/timekeeper_fw/build/esp-idf/protocol_examples_common/cmake_install.cmake")
 endif()
 

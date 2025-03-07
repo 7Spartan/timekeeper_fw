@@ -22,7 +22,7 @@
 
 #include "encoder.h"
 #include "gatttest.h"
-
+#include "i2coled.h"
 #include "sdkconfig.h"
 
 /* Flask Server IP Address & Port */
@@ -39,6 +39,7 @@ static QueueHandle_t button_press_wifi_evt_queue = NULL;
 static QueueHandle_t button_press_ble_evt_queue = NULL;
 static TimerHandle_t debounce_timer = NULL;
 static volatile bool button_pressed = false;
+
 
 bool MONITOR_ENCODER = false;
 
@@ -196,4 +197,5 @@ void app_main(void)
         xTaskCreate(encoder_print_task, "encoder_print_task", 2048, NULL, 5, NULL);
     }
     xTaskCreate(gatttest, "gatttest", 4096, NULL, 5, NULL);
+    xTaskCreatePinnedToCore(i2coled,"i2coled",4096,NULL,5,NULL,1);
 }
